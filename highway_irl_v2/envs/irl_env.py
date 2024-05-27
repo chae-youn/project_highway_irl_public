@@ -8,12 +8,12 @@ from highway_env.envs.common.action import Action
 from highway_env.road.road import Road, RoadNetwork
 from highway_env.utils import near_split
 # from highway_env.vehicle.controller import ControlledVehicle
-from irl_control_v2 import ControlledVehicle
+from behavior_v2.irl_control_v2 import ControlledVehicle
 from highway_env.road.lane import LineType, StraightLane, CircularLane, AbstractLane
 from highway_env.envs.common.graphics import EventHandler
-from irl_graphics_v2 import EnvViewer2
-from irl_highway_road_v2 import Road2
-from irl_vehicle_v2 import SpeedOnlyVehicle, IRLVehicle
+from behavior_v2.irl_graphics_v2 import EnvViewer2
+from behavior_v2.irl_highway_road_v2 import Road2
+from behavior_v2.irl_vehicle_v2 import SpeedOnlyVehicle, IRLVehicle
 
 
 class IRLEnvV2(AbstractEnv):

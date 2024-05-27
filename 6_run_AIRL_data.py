@@ -68,7 +68,7 @@ def run_AIRL(args,sub_id,base_name):
     args.units_v = [512]*3
     args.units_d = 512
     
-    args.iteration = 1001 #number of IRL iteration
+    args.iteration = 1 #수정1001 #number of IRL iteration
     num_sim = 1 #number of simulations
     
     args.discretize = False
@@ -107,7 +107,7 @@ if __name__ == '__main__':
             args.cv = False #cross validation
             args.fold = 4
             args.restrict_sample = False #use a subset of samples
-            args.sample_size = 10000 #number of samples to use (if restrict_sample)
+            args.sample_size = 10 #수정10000 #number of samples to use (if restrict_sample)
             args.sim_number = sim_list[iSim]
             
             print("cv_number",args.sim_number)

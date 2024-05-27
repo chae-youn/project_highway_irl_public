@@ -7,9 +7,9 @@ import time
 from highway_env.envs.common.action import ActionType, DiscreteMetaAction, ContinuousAction
 from highway_env.envs.common.graphics import EnvViewer, ObservationGraphics, EventHandler
 #from highway_env.road.graphics import WorldSurface, RoadGraphics
-from irl_road_graphics_v2 import WorldSurface, RoadGraphics
+from behavior_v2.irl_road_graphics_v2 import WorldSurface, RoadGraphics
 #from highway_env.vehicle.graphics import VehicleGraphics
-from irl_vehicle_graphics_v2 import VehicleGraphics
+from behavior_v2.irl_vehicle_graphics_v2 import VehicleGraphics
 
 if TYPE_CHECKING:
     from highway_env.envs import AbstractEnv

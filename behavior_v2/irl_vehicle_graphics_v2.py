@@ -8,9 +8,9 @@ from highway_env.utils import Vector
 from highway_env.vehicle.dynamics import BicycleVehicle
 from highway_env.vehicle.kinematics import Vehicle
 # from highway_env.vehicle.controller import ControlledVehicle, MDPVehicle
-from irl_control_v2 import ControlledVehicle, MDPVehicle
+from behavior_v2.irl_control_v2 import ControlledVehicle, MDPVehicle
 from highway_env.vehicle.behavior import IDMVehicle, LinearVehicle
-from irl_vehicle_v2 import SpeedOnlyVehicle, IRLVehicle
+from behavior_v2.irl_vehicle_v2 import SpeedOnlyVehicle, IRLVehicle
 
 if TYPE_CHECKING:
     #from highway_env.road.graphics import WorldSurface
